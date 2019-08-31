@@ -18,8 +18,31 @@
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+.social-icons,
+.resumen {
+  text-align: center;
+}
+
 /* Mis estilos */
 
 .icon-skill:hover {
   color: var(--color);
+}
+
+/* breakpoints */
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+  .social-icons,
+  .resumen {
+    text-align: left;
+  }
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
 }
